@@ -9,7 +9,7 @@ keywords:
 tags: 
     - "main"
     - "function"
-category: [examples]
+categories: [examples]
 weight: 10001
 date: 2023-07-30
 ---
@@ -20,17 +20,5 @@ Welcome to the introductory Ballerina example - the classic "Hello, World!" prog
 
 ## Example
 
-{{< example >}}
+{{< example repo="https://github.com/hasithaa/Ballerina-Examples" repoPath="1_basic/hello_world_main">}}
 
-## Running the Example
-
-To run this example on your local machine, follow these steps:
-
-1. Ensure Ballerina is installed on your machine. If not, download it from the [official Ballerina website](https://ballerina.io).
-2. Clone [this repository]({{< data "repo" >}}) to your local machine.
-3. Navigate to the directory `{{< pwd >}}`.
-4. Run the command `bal run`. 
-
-You should see the text "Hello, World...!" printed to your console, indicating that the program has run successfully.
-
-{{< output >}}

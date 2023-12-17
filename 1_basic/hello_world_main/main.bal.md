@@ -1,5 +1,5 @@
 
-#### Line 1: Importing the I/O Module{id="line-1"}
+**Line 1: Importing the I/O Module**
 
 ```ballerina {linenos=table,linenostart=1}
 import ballerina/io;
@@ -11,7 +11,7 @@ Here, we declare the import of the `io` module from the `ballerina` organization
 - The `io` module is essential here, as we'll be using it to print a line to the standard output (STDOUT).
 
 --- 
-#### Line 2: Formatting the Code{id="line-2"}
+**Line 2: Formatting the Code**
 
 ```ballerina {linenos=table,linenostart=2}
  
@@ -21,7 +21,7 @@ This empty line is intentionally added for readability and better formatting. Pr
 
 --- 
 
-#### Lines 3 & 8: Defining the Main Function{id="line-3-5"}
+**Lines 3 & 8: Defining the Main Function**
 
 ```ballerina {linenos=table,linenostart=3}
 public function main() {
@@ -36,7 +36,7 @@ These lines define the `main` function, which serves as the entry point to the p
 
 ---
 
-#### Line 4: Printing "Hello, World!"{id="line-4"}
+**Line 4: Printing "Hello, World!"**
 
 ```ballerina {linenos=table,linenostart=4}
     io:println("Hello, World...!");
@@ -45,8 +45,8 @@ These lines define the `main` function, which serves as the entry point to the p
 In this line, we're calling the `println` function from the `io` module (recall the [prefix](#line-1) we discussed earlier). 
 - The function is invoked using its fully qualified name, with the module prefix `io` followed by `:` and then the function name.
 - The argument `"Hello, World...!"` is the string we want to print out to STDOUT.
-
-#### Line 6: Variable Declaration{id="line-6"}
+--- 
+**Line 6: Variable Declaration**
 
 ```ballerina {linenos=table,linenostart=6}
     string greeting = "👋🌏";
@@ -54,7 +54,9 @@ In this line, we're calling the `println` function from the `io` module (recall 
 
 In this line, we declare a variable named `greeting` of type `string` and assign it the value `"👋🌏"`.
 
-#### Line 7: Printing the Variable{id="line-7"}
+--- 
+
+**Line 7: Printing the Variable**
 
 ```ballerina {linenos=table,linenostart=7}
     io:println(greeting);
