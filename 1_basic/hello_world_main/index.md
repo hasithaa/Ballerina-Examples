@@ -9,7 +9,6 @@ keywords:
 tags: 
     - "main"
     - "function"
-categories: [examples]
 weight: 10001
 date: 2023-07-30
 ---
