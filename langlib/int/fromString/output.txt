@@ -1,0 +1,10 @@
+(1) 19467: 19467
+(2) -19467: -19467
+(3) 19467: 19467
+(4) -19467: -19467
+(5) 123abc: error("{ballerina/lang.int}NumberParsingError",message="'string' value '123abc' cannot be converted to 'int'")
+(6) 19467: 4c0b
+(7) -125: -7d
+(8) 4c0b: 19467
+(9) 1a2b3c: 1715004
+(10) 1p2q3r: error("{ballerina/lang.int}NumberParsingError",message="For input string: "1p2q3r" under radix 16")
