@@ -14,6 +14,6 @@ The `boolean` basic type has only two values; boolean true is written as `true` 
 
 {{< example repo="https://github.com/hasithaa/Ballerina-Examples" repoPath="expressions/literals/boolean">}}
 
-## Summary
+## Insights
 
 {{< tips >}}

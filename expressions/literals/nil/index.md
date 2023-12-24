@@ -15,7 +15,6 @@ The `nil` basic type has only a single value called `nil`. Nil literal uses the 
 
 {{< example repo="https://github.com/hasithaa/Ballerina-Examples" repoPath="expressions/literals/nil">}}
 
-
-## Summary
+## Insights
 
 {{< tips >}}
