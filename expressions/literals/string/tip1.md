@@ -1,0 +1,6 @@
+**Special Chars in Double Quoted String Literals**
+
+1. In Ballerina, a string literal is created by enclosing Unicode code points within double quotes `"`. However, certain Unicode code points such as 0xA, 0xD, the backslash `\`, and the double quote `"` character itself are not permitted directly in the string literal. To include these characters, escape sequences must be used.
+2. There are two primary methods to escape characters in a string literal:
+    - Utilizing string escape sequences with the backslash `\` character. This method allows you to include special characters like newline (`\n`), carriage return (`\r`), backslash (`\\`), and double quotes (`\"`) within the string.
+    - Employing Unicode escape sequences with the syntax `\u{CODE}`. In this syntax, `CODE` represents the hexadecimal value of the Unicode code point. The valid range for `CODE` is from 0 to 0xD800 or from 0xDFFF to 0x10FFFF. This method is useful for including Unicode characters that may not have a direct keyboard representation.
